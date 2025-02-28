@@ -92,8 +92,8 @@ button:hover {
   transition: 0.2s ease-in-out;
   opacity: 0.5;
 }
-section.overview-section{
-  background-image: url("../img/project-images/hero_image.png");
+section.overview-section {
+  background-image: url("img/hero_image.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -131,10 +131,10 @@ section.music-section .container {
   gap: 30px;
   color: white;
 }
-section.music-section .container h4{
+section.music-section .container h4 {
   line-height: 1.5rem;
 }
-section.music-section .container p{
+section.music-section .container p {
   font-size: 1.2rem;
 }
 
@@ -169,7 +169,7 @@ section.about-music-section p {
 }
 
 section.video-section {
-  background-image: url("../img/project-images/video.png");
+  background-image: url("img/video.png");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -190,55 +190,52 @@ section.video-section .container p {
   font-size: 1.2rem;
 }
 
-.gift-section{
+.gift-section {
   display: flex;
   justify-content: center;
   gap: 50px;
   margin: 100px 0;
 }
-.gift-content{
+.gift-content {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.footer-upper{
+.footer-upper {
   background-color: var(--color5);
   padding: 20px;
-
 }
-.footer-upper .container{
+.footer-upper .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between ;
+  justify-content: space-between;
   gap: 30px;
   color: var(--body);
 }
-.footer-upper h4{
+.footer-upper h4 {
   border-bottom: 2px solid white;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
-
-.footer-upper .footer-links{
+.footer-upper .footer-links {
   flex: 1 1 250px;
 }
-.footer-lower{
+.footer-lower {
   background-color: var(--color1);
   padding: 20px;
   display: flex;
- justify-content: center;
- color: var(--body);
+  justify-content: center;
+  color: var(--body);
 }
 
-@media screen and (max-width:600px) {
-  .container-nav{
+@media screen and (max-width: 600px) {
+  .container-nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
   }
   section.overview-section .container h1 {
     font-size: 4rem;
@@ -250,44 +247,36 @@ section.video-section .container p {
     font-size: 1.3rem;
   }
 
-  .about-music-section{
+  .about-music-section {
     text-align: center;
     margin: 1rem;
   }
- .gift-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-
-
- } 
-.gift-content{
-  text-align: center;
-  margin:10px
+  .gift-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .gift-content {
+    text-align: center;
+    margin: 10px;
+  }
 }
 
-}
-
-@media screen and (max-width:570px){
-  .footer-upper .footer-links{
+@media screen and (max-width: 570px) {
+  .footer-upper .footer-links {
     text-align: center;
     line-height: 20px;
-
   }
   .footer-upper .footer-links ul {
     line-height: 2rem;
-    list-style-type:none ;
-
+    list-style-type: none;
   }
-  .footer-upper .footer-links ul li::before{
+  .footer-upper .footer-links ul li::before {
     content: "\f0da";
     font: var(--fa-font-solid);
-    font-size: .7rem;
-    margin-right: .5rem;
-
-
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
   }
-
 }
